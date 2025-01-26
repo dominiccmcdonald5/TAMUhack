@@ -93,10 +93,51 @@ const App: React.FC = () => {
             className="form-select"
             value={dropdown3}
             onChange={(e) => setDropdown3(e.target.value)}
+            style={{
+                maxHeight: "200px", // Limit height
+                overflowY: "auto",  // Enable vertical scrolling
+              }}
           >
             <option value="">Select Model</option>
-            <option value="Option3A">Option 3A</option>
-            <option value="Option3B">Option 3B</option>
+            <option value="Option3A">Corolla</option>
+            <option value="Option3B">Camry</option>
+            <option value="Option3B">Avalon</option>
+            <option value="Option3B">Crown</option>
+            <option value="Option3B">Mirai</option>
+            <option value="Option3B">Prius</option>
+            <option value="Option3B">RAV4</option>
+            <option value="Option3B">Highlander</option>
+            <option value="Option3B">Grand Highlander</option>
+            <option value="Option3B">4Runner</option>
+            <option value="Option3B">Sequio</option>
+            <option value="Option3B">C-HR</option>
+            <option value="Option3B">Venza</option>
+            <option value="Option3B">Corolla Cross</option>
+            <option value="Option3B">bZ4X</option>
+            <option value="Option3B">Land Cruiser</option>
+            <option value="Option3B">Tacoma</option>
+            <option value="Option3B">Tundra</option>
+            <option value="Option3B">Sienna</option>
+            <option value="Option3B">GR86</option>
+            <option value="Option3B">GR Supra</option>
+            <option value="Option3B">GR Corolla</option>
+            <option value="Option3B">Corolla Hybrid</option>
+            <option value="Option3B">Camry Hybrid</option>
+            <option value="Option3B">RAV4 Hybrid</option>
+            <option value="Option3B">Highlander Hybrid</option>
+            <option value="Option3B">Sequoia Hybrid</option>
+            <option value="Option3B">Tundra Hybrid (i-FORCE MAX)</option>
+            <option value="Option3B">Venza Hybrid</option>
+            <option value="Option3B">Sienna Hybrid</option>
+            <option value="Option3B">Prius Prime</option>
+            <option value="Option3B">RAV4 Prime</option>
+            <option value="Option3B">bZ4X</option>
+            <option value="Option3B">bZ3</option>
+            <option value="Option3B">Tacoma TRD Pro</option>
+            <option value="Option3B">4Runner TRD Pro</option>
+            <option value="Option3B">Sequoia TRD Pro</option>
+            <option value="Option3B">Tundra TRD Pro</option>
+            <option value="Option3B">Land Cruiser 250 Series</option>
           </select>
         </div>
       </div>
