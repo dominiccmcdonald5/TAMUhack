@@ -29,35 +29,39 @@ const App: React.FC = () => {
             <option value="">Select Type</option>
             <option value="Option1A">Traditional</option>
             <option value="Option1B">Hybrid</option>
-            <option value="Option1B">Plug-In Hybrid</option>
-            <option value="Option1B">Electric</option>
+            <option value="Option1C">Plug-In Hybrid</option>
+            <option value="Option1D">Electric</option>
           </select>
         </div>
 
-        {/* Dropdown 2 */}
+        {/* Dropdown 2 (Scrollable) */}
         <div className="col-auto">
           <select
             className="form-select"
             value={dropdown2}
             onChange={(e) => setDropdown2(e.target.value)}
+            style={{
+              maxHeight: "200px", // Limit height
+              overflowY: "auto",  // Enable vertical scrolling
+            }}
           >
             <option value="">Select Color</option>
             <option value="Option2A">Black</option>
             <option value="Option2B">White</option>
-            <option value="Option2B">Silver</option>
-            <option value="Option2B">Gray</option>
-            <option value="Option2B">Red</option>
-            <option value="Option2B">Blue</option>
-            <option value="Option2B">Green</option>
-            <option value="Option2B">Brown/Beige</option>
-            <option value="Option2B">Orange/Yellow</option>
-            <option value="Option2B">Lunar Rock</option>
-            <option value="Option2B">Blueprint</option>
-            <option value="Option2B">Ruby Flare Pearl</option>
-            <option value="Option2B">Supersonic Red</option>
-            <option value="Option2B">Solar Octane</option>
-            <option value="Option2B">Cement</option>
-            <option value="Option2B">Wind Chill Pearl</option>
+            <option value="Option2C">Silver</option>
+            <option value="Option2D">Gray</option>
+            <option value="Option2E">Red</option>
+            <option value="Option2F">Blue</option>
+            <option value="Option2G">Green</option>
+            <option value="Option2H">Brown/Beige</option>
+            <option value="Option2I">Orange/Yellow</option>
+            <option value="Option2J">Lunar Rock</option>
+            <option value="Option2K">Blueprint</option>
+            <option value="Option2L">Ruby Flare Pearl</option>
+            <option value="Option2M">Supersonic Red</option>
+            <option value="Option2N">Solar Octane</option>
+            <option value="Option2O">Cement</option>
+            <option value="Option2P">Wind Chill Pearl</option>
           </select>
         </div>
 
