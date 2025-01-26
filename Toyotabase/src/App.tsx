@@ -1,23 +1,15 @@
 import Title from "./components/Title";
-import ListGroup from "./components/ListGroup";
 import Input from "./components/Input";
+import SearchResults from "./components/SearchResults";
 
-
-
-function App()
-{
-  let items = ['New York', 'San Francisco', 'Tokyo', 'London', 'Paris'];
-  
-  const handleSelectItem = (item: string) => {
-    console.log(item);
-  }
+function App() {
   return (
     <div>
-      
+      <Title title="Toyotabase" />
 
       <Input />
 
-      <ListGroup items={items} heading="Cities" onSelectItem={handleSelectItem} />
+      <SearchResults />
     </div>
   );
 }
