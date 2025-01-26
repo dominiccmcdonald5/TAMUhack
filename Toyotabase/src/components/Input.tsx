@@ -26,7 +26,7 @@ const App: React.FC = () => {
             value={dropdown1}
             onChange={(e) => setDropdown1(e.target.value)}
           >
-            <option value="">Select Type</option>
+            <option value="">Select Typ</option>
             <option value="Option1A">Traditional</option>
             <option value="Option1B">Hybrid</option>
             <option value="Option1C">Plug-In Hybrid</option>
