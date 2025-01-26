@@ -12,7 +12,7 @@ const App: React.FC = () => {
     <div className="container mt-4">
       {/* Title Section */}
       <header className="text-center mb-4">
-        <h1 className="border border-danger py-3" style={{ fontFamily: "Avenir, sans-serif" }}>
+        <h1 className="border border-danger py-2" style={{ fontFamily: "Avenir, sans-serif" }}>
           Menu
         </h1>
       </header>
@@ -98,7 +98,7 @@ const App: React.FC = () => {
                 overflowY: "auto",  // Enable vertical scrolling
               }}
           >
-                        <option value="">Select Model</option>
+            <option value="">Select Model</option>
             <option value="Option3A">Corolla</option>
             <option value="Option3B">Camry</option>
             <option value="Option3C">Avalon</option>
